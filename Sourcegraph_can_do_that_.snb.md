@@ -1,6 +1,6 @@
 # Sourcegraph can do that?!
 
-All the best things about Sourcegraph that nobody ever bothered to tell you.
+All the best things about Sourcegraph that nobody ever bothered to tell you. [Make a PR](https://github.com/sourcegraph-community/sg-can-do-that-notebook) to add yours!
 
 Inspired by [VS Code Can Do That?!](https://vscodecandothat.com/)
 
