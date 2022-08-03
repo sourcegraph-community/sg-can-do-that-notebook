@@ -22,3 +22,12 @@ repo:sindresorhus/awesome -file:(pull_request_template.md|contributing.md) patte
 ```
 
 ---
+
+## 02: Search the same file for two different strings at the same time
+> via [@yng__en](https://twitter.com/yng__en/status/1554812939948855296)
+
+```sourcegraph
+repo:^github\.com/sourcegraph/scip-typescript$ file:^package\.json "eslint" and file:^package\.json "scip"
+```
+
+---
