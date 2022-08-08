@@ -31,3 +31,10 @@ repo:^github\.com/sourcegraph/scip-typescript$ file:^package\.json "eslint" and 
 ```
 
 ---
+
+## 03: Find all Go functions that contain "compile"
+> via [gh:@stefanhengl](https://github.com/stefanhengl)
+
+```sourcegraph
+r:golang/go compile type:symbol select:symbol.function
+```
