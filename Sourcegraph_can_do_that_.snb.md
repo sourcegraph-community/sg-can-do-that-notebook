@@ -1,6 +1,6 @@
 # Sourcegraph can do that?!
 
-All the best things about Sourcegraph that nobody ever bothered to tell you.
+All the best things about Sourcegraph that nobody ever bothered to tell you. [Make a PR](https://github.com/sourcegraph-community/sg-can-do-that-notebook) to add yours!
 
 Inspired by [VS Code Can Do That?!](https://vscodecandothat.com/)
 
@@ -22,3 +22,17 @@ repo:sindresorhus/awesome -file:(pull_request_template.md|contributing.md) patte
 ```
 
 ---
+
+## 02: Search the same file for two different strings at the same time
+> via [@yng__en](https://twitter.com/yng__en/status/1554812939948855296)
+
+```sourcegraph
+repo:^github\.com/sourcegraph/scip-typescript$ file:^package\.json "eslint" and file:^package\.json "scip"
+```
+
+## 03: Find all Go functions that contain "compile"
+> via [gh:@stefanhengl](https://github.com/stefanhengl)
+
+```sourcegraph
+r:golang/go compile type:symbol select:symbol.function
+```
