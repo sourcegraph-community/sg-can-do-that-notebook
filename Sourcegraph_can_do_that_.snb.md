@@ -30,6 +30,8 @@ repo:sindresorhus/awesome -file:(pull_request_template.md|contributing.md) patte
 repo:^github\.com/sourcegraph/scip-typescript$ file:^package\.json "eslint" and file:^package\.json "scip"
 ```
 
+---
+
 ## 03: Find all Go functions that contain "compile"
 > via [gh:@stefanhengl](https://github.com/stefanhengl)
 
